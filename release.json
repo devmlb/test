@@ -1,11 +1,11 @@
 {
   "release": "1.0.0", 
   "dependencies": {
-    "java": {"version": {"cmd": "java -version", "prefix": "version", "suffix": "OpenJDK", "expected": "1.8.0_392"}},
-    "nodejs": {"version": {"cmd": "node -v", "prefix": "v", "suffix": "", "expected": "16.20.2"}},
-    "mongodb": {"version": {"cmd": "mongod --version", "prefix": "version", "suffix": "Build Info", "expected": "6.0.10"}},
-    "gradle": {"version": {"cmd": "gradle --version", "prefix": "Gradle", "suffix": "------------------------------------------------------------\n\nBuild time", "expected": "7.2"}},
-    "git": {"version": {"cmd": "git --version", "prefix": "version", "suffix": "", "expected": ""}},
-    "sdkman": {"version": {"cmd": "sdk version", "prefix": "script:", "suffix": "native", "expected": ""}}
+    "java": {"version": {"cmd": "java -version", "prefix": "version", "suffix": "OpenJDK", "split_char": "*", "expected": "1.8.0_392"}},
+    "nodejs": {"version": {"cmd": "node -v", "prefix": "v", "suffix": "", "split_char": "*", "expected": "16.20.2"}},
+    "mongodb": {"version": {"cmd": "mongod --version", "prefix": "version", "suffix": "Build Info", "split_char": "*", "expected": "6.0.10"}},
+    "gradle": {"version": {"cmd": "gradle --version", "prefix": "Gradle", "suffix": "------------------------------------------------------------\n\nBuild time", "split_char": "*", "expected": "7.2"}},
+    "git": {"version": {"cmd": "git --version", "prefix": "version", "suffix": "", "split_char": "*", "expected": ""}},
+    "sdkman": {"version": {"cmd": "sdk version", "prefix": "script:", "suffix": "native", "split_char": "*", "expected": ""}}
   }
 }
