@@ -1,11 +1,11 @@
 {
   "release": "1.0.0", 
   "dependencies": {
-    "java": {"cmd": "java -version", "ver": "1.8.0_392"},
-    "nodejs": {"cmd": "node -v", "ver": "v16.20.2"},
-    "npm": {"cmd": "npm -v", "ver": "8.19.4"},
-    "mongodb": {"cmd": "mongod --version", "ver": "v6.0.10"},
-    "gradle": {"cmd": "gradle --version", "ver": "7.2"},
-    "git": {"cmd": "git --version", "ver": ""}
+    "java": {"version": {"cmd": "java -version", "expected": "1.8.0_392"}},
+    "nodejs": {"version": {"cmd": "node -v", "expected": "16.20.2"}},
+    "mongodb": {"version": {"cmd": "mongod --version", "expected": "6.0.10"}},
+    "gradle": {"version": {"cmd": "gradle --version", "expected": "7.2"}},
+    "git": {"version": {"cmd": "git --version", "expected": ""}},
+    "sdkman": {"version": {"cmd": "sdk version", "expected": ""}}
   }
 }
