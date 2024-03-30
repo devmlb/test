@@ -1,6 +1,11 @@
 {
   "release": "1.0.0", 
   "dependencies_version": {
-    "java": "1.8.0_392"
+    "java": "1.8.0_392",
+    "nodejs": "v16.20.2",
+    "npm": "8.19.4",
+    "mongodb": "v6.0.10",
+    "gradle": "7.2",
+    "git": ">2.25.1"
   }
 }
