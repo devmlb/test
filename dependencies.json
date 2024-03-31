@@ -52,5 +52,14 @@
             "split_char": "*",
             "expected": ""
         }
+    },
+    "curl": {
+        "version": {
+            "cmd": "curl --version", 
+            "prefix": "libcurl/", 
+            "suffix": "OpenSSL/",
+            "split_char": "*",
+            "expected": ""
+        }
     }
 }
