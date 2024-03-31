@@ -1,11 +1,20 @@
 {
-    "java": {
+    "curl": {
         "version": {
-            "cmd": "java -version", 
-            "prefix": "version",
-            "suffix": "OpenJDK Runtime Environment",
+            "cmd": "curl --version", 
+            "prefix": "libcurl/", 
+            "suffix": "OpenSSL/",
             "split_char": "*",
-            "expected": "1.8.0_392"
+            "expected": ""
+        }
+    },
+    "git": {
+        "version": {
+            "cmd": "git --version", 
+            "prefix": "version", 
+            "suffix": "", 
+            "split_char": "*", 
+            "expected": ""
         }
     },
     "nodejs": {
@@ -15,6 +24,15 @@
             "suffix": "", 
             "split_char": "*", 
             "expected": "16.20.2"
+        }
+    },
+    "java": {
+        "version": {
+            "cmd": "java -version", 
+            "prefix": "version",
+            "suffix": "OpenJDK Runtime Environment",
+            "split_char": "*",
+            "expected": "1.8.0_392"
         }
     },
     "mongodb": {
@@ -35,29 +53,11 @@
             "expected": "7.2"
         }
     },
-    "git": {
-        "version": {
-            "cmd": "git --version", 
-            "prefix": "version", 
-            "suffix": "", 
-            "split_char": "*", 
-            "expected": ""
-        }
-    },
     "sdkman": {
         "version": {
             "cmd": "cat $HOME/.sdkman/var/version", 
             "prefix": "", 
             "suffix": "",
-            "split_char": "*",
-            "expected": ""
-        }
-    },
-    "curl": {
-        "version": {
-            "cmd": "curl --version", 
-            "prefix": "libcurl/", 
-            "suffix": "OpenSSL/",
             "split_char": "*",
             "expected": ""
         }
